@@ -1,38 +1,129 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width;initial-scale=1">
-	<title></title>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+<style type="text/css">
+	body{
+  font-family: Sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+#container{
+  border:solid 10px #f1f1f1;
+  border-width:70px 20px 22px 20px;
+  width: 100%;
+}
+.row{
+  border:solid white;
+  margin:10px 2.5px 40px 2.5px;
+}
+.jumbotron{
+  background-color:#f1f1f1;
+  margin: 0px;
+  padding: 20px;
+  font-size: 30px;
+  height:500px;
+}
+/*.jumbotron{
+  background-color:#eeeeff;
+  margin-top:90px;
+}*/
+.fade {
+      opacity: 0.5;
+      text-align: center;
+      }
+.btn {
+  background-color: #751947;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  left: 580px;
+  top: 450px;
+  /*bottom:0px;*/
+  -webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.8);
+  box-shadow:1px 1px 2px rgba(0,0,0,0.8);
+  -moz-box-shadow:1px 1px 2px rgba(0,0,0,0.8);
+  -ms-box-shadow:1px 1px 2px rgba(0,0,0,0.8);
+  -o-box-shadow:1px 1px 2px rgba(0,0,0,0.8);
+}
+@media only screen and (max-width: 768px) {
+  .btn {
+    position:absolute;
+    left: 130px;
+    top: 400px;
+  }
+  .jumbotron{
+  	height: 400px;
+  }
+}
+
+</style>
+
 </head>
 <body>
-<div class="gallery">
-  <a target="_blank" href="titashriver.jpg">
-    <img src="titashriver.jpg" alt="Titash" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<nav class="navbar navbar-default navbar-fixed-top navbar-transform" style="background-color:#751947;border-color:balck">
+  <div class="container">
+    <div class="navbar-header">
+      <button style="border-color: #000000;" type="button" id="buger" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar" style="color: white"></span>
+        <span class="icon-bar" style="color: white"></span>
+        <span class="icon-bar" style="color: white"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gellary</a></li>
+        <li><a href="#">Event</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container" id="container">
+  <div class="row">
+  	<!--<div class="col-md-12">-->
+      <div class="jumbotron">
+        <h1 style="text-align: center;">SUNSHINE ACCESSORIES MFC.BD.LTD</h1>
+        <p class="fade">Online Proforma invoice Systeml</p>
+        <h2 style="text-align: center;">Please take today's Database Backup</h2>
+        <button class="btn pull-cenert";><i class="fa fa-download"></i> Download Database</button>
+      </div>
+    </div>
+    <!--</div>-->
+   </div>
+  </div>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="shanguriver.jpg">
-    <img src="shanguriver.jpg" alt="Shangu" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<div class="footer" style="text-align: center;background-color:#751947 ">
+  <p style="margin-top: -0px;padding: 5px;"><span style="color: white">&copy 2019</span><span style="color: #ff0000"> V-Link Network</span></p>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="padmariver.jpg">
-    <img src="padmariver.jpg" alt="Padma" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="jamunariver.jpg">
-    <img src="jamunariver.jpg" alt="jamuna" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-</body>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>
+
+
+<!--<div id="main-container">
+        <h3>Responsive Div</h3>
+          <p style="opacity:.5">Operation</p>
+          <p>Download</p>
+          <button class="btn pull-cenert";><i class="fa fa-download"></i> Download </button>
+       </div>
+      </div>-->
+   <!--<div class="col-md-2">
+    <div class="col-md-2">
+    <div class="col-md-8">
+#80002a
+    -->
